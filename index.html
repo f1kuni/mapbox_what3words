@@ -13,7 +13,8 @@
     <title>Grid Section Map Overlay (Mapbox)</title>
   </head>
   <body>
-    <div id="map" style="width: 100%; height: 980px;"></div>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
     <script>
       // Create the Mapbox
       mapboxgl.accessToken =
